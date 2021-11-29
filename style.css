@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+div h1{
+    color:red;
+}
+div>p{
+    color:purple;
+}
+a:hover{
+    color:blue;
+}
+a:focus{
+    color:rebeccapurple
+}
+li:first-child{
+    color:saddlebrown
+}
+p::before{
+    content:"1";
+}

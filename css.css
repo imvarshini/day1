@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+.box{
+    border:2px solid blue;
+    height:50px;
+    width:100wh;
+    padding-left:-50px;
+    background-color:skyblue;
+    display:flex;
+    align-items: baseline;
+    justify-content:start;
+    flex-wrap:wrap;
+}
+.number{
+    height:50px;
+    width:100px;
+    padding-right:900px;
+    align-items: baseline;
+    display:flex;
+    flex-direction:row;
+}
+.main{
+    height:50px;
+    width:300px;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    
+}

@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+.box{
+    border:2px solid blue;
+    height:500px;
+    width:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.sn{
+    border:5px solid mediumvioletred;
+    height:50px;
+    width:100px;
+    display:flex;
+    justify-content:center;
+    
+    align-items:center;
+}
+.main{
+    border:5px solid mediumvioletred;
+    height:50px;
+    width:300px;
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:space-around;
+    align-items:center;
+}
+.one{
+
+    color:red;
+
+}
+.two{
+    color:purple;
+}
+.desp{
+    border:5px solid rebeccapurple;
+    height:350px;
+    width:350px;
+    color:purple;
+    display:flex;
+    
+    align-items:baseline;
+
+}
+
